@@ -4,7 +4,8 @@
 module.exports = {
   siteMetadata: {
     title: `finnet-media`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://www.yourdomain.tld`,
+    pathPrefix: "/finnet-media"
   },
   plugins: ["gatsby-plugin-image", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
     resolve: 'gatsby-source-filesystem',
